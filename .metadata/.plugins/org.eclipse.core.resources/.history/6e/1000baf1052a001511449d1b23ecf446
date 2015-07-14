@@ -1,0 +1,18 @@
+/**
+ * 
+ */
+function getName(){
+	var name = null;
+	name = prompt("Enter your name: ");
+	if (name == null)
+		getName();
+	retun name;
+}
+
+function getSurname(){
+	var surname = null;
+	surname = prompt("Enter your surname: ");
+	if (surname == null)
+		getSurame();
+	retun surname;
+}

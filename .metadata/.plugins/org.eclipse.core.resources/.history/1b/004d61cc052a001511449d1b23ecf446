@@ -1,0 +1,8 @@
+/**
+ * 
+ */
+function getName(){
+	var name = null;
+	name = prompt("Enter your name: ");
+	
+}
