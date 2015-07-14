@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link rel="stylesheet" href="css/foundation.css" />
+	<script src="js/vendor/modernizr.js"></script>
+	<title>Exercise 2 - Comarch</title>
+</head>
+<body>
+	<div class="row">
+		<div class="small-12 columns">
+			<div class="row">
+				<div class="small-6 columns small-centered panel">
+					<form action="" method="post">
+						<input type="text" placeholder="1">
+						<input type="text" placeholder="2">
+						<input type="text" placeholder="3">
+					</form>
+				</div>
+			</div>
+		</div>
+		<div class="small-6 columns">
+			<div class="row">
+				<div class="small-6 columns"><a href="#">Podblok 001</a></div>
+				<div class="small-6 columns"><a href="#">Podblok 002</a></div>
+			</div>
+		</div>
+		<div class="small-6 columns">
+			<div class="row">
+				<div class="small-6 columns"><a href="#">Podblok 003</a></div>
+				<div class="small-6 columns"><a href="#">Podblok 004</a></div>
+			</div>
+		</div>
+	</div>
+	
+	
+	<script src="js/vendor/jquery.js"></script>
+    <script src="js/foundation.min.js"></script>
+    <script>
+      $(document).foundation();
+    </script>
+</body>
+</html>
