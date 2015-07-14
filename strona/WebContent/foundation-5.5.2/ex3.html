@@ -9,13 +9,15 @@
 </head>
 <body>
 
+<input type="button" id='guzik'>
+
 	<script src="js/vendor/jquery.js"></script>
 	<script src="js/foundation.min.js"></script>
-	<script src="js/MyScripts.js"></script>
 	<script>
 		$(document).foundation();
-		var v = getName();
-		document.write(v);
+		$('input#guzik').bind('click', function() {
+		    console.log('test');
+		})
 	</script>
 </body>
 </html>
